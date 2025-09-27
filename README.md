@@ -1,37 +1,40 @@
-# Homework 2 — Machine Learning (CS5710)
-
+# Homework 2 — Machine Learning (CS5710)  
 **University of Central Missouri — Fall 2025**  
 **Course:** CS5710 Machine Learning  
 **Student:** Ashmitha Kumbham  
 
-📘 **Assignment:** Home Assignment 2  
+---
+
+## 📘 Assignment Overview  
+**Home Assignment 2**  
+
 - **Part A:** Q1–Q6 (theory)  
 - **Part B:** Q7–Q9 (programming)  
 
 📂 **Repository:** Homework2ML  
-(All code, PDFs, and explanations are included in this repository.)
+_All code, PDFs, and explanations are included in this repository._  
 
 ---
 
-## 📑 Repository Structure
-- **Homework 2 ML(1–6).pdf** — Assignment write-up and solutions for Part A (theory).  
-- **`homework2_7_to_9.py`** — Python script for Part B (programming).  
-- **`HOMEWORK2_7_to_9.ipynb`** — Jupyter/Colab notebook with code + plots.  
-- **README.md** — This file (full explanations + run instructions).  
+## 📑 Repository Structure  
+- **Homework 2 ML(1–6).pdf** → Assignment write-up and solutions for Part A (theory).  
+- **homework2_7_to_9.py** → Python script for Part B (programming).  
+- **HOMEWORK2_7_to_9.ipynb** → Jupyter/Colab notebook with code + plots.  
+- **README.md** → This file (full explanations + run instructions).  
 
 ---
 
-## 🔧 How to Run the Code (Part B)
+## 🔧 How to Run the Code (Part B)  
 
-### Option 1: Google Colab
-1. Open [Google Colab](https://colab.research.google.com/).  
+### Option 1: Google Colab  
+1. Open **Google Colab**.  
 2. Upload `homework2_7_to_9.py`.  
 3. Run all cells (self-contained).  
 
-### Option 2: Local Python Environment
+### Option 2: Local Python Environment  
 ```bash
 # Check Python version
-python -V            # Python 3.9+ recommended
+python -V   # Python 3.9+ recommended
 
 # Install required packages
 pip install numpy pandas scikit-learn matplotlib
@@ -59,17 +62,17 @@ Exercise → 16.7%
 
 Diet → 16.7%
 
-Best split: tie across all three.
+✅ Best split: tie across all three.
 
 Q3. Entropy & Information Gain
-Labels: Yes=3, No=3 → Entropy = 1.0.
+Labels: Yes=3, No=3 → Entropy = 1.0
 
-Split on Exercise → weighted entropy = 0.333.
+Split on Exercise → weighted entropy = 0.333
 
-Information Gain = 0.667 → good split.
+Information Gain = 0.667 → good split
 
 Q4. Confusion Matrix Metrics
-Confusion matrix: TP=25, FN=5, FP=15, TN=55.
+Confusion matrix: TP=25, FN=5, FP=15, TN=55
 
 Metrics:
 
@@ -86,7 +89,7 @@ F1 ≈ 0.714
 ⚠️ Imbalanced case → Accuracy is misleading; F1/PR are better.
 
 Q5. kNN Distance Calculations
-Points: A(2,4,Red), B(4,4,Blue), C(4,6,Red); P(5,4).
+Points: A(2,4,Red), B(4,4,Blue), C(4,6,Red); P(5,4)
 
 Distances:
 
@@ -95,6 +98,8 @@ d(P,A) = 3
 d(P,B) = 1
 
 d(P,C) = 2.24
+
+Results:
 
 1-NN → Blue
 
@@ -109,11 +114,11 @@ k=3 → 0.1625
 
 k=5 → 0.1375
 
-✅ Best generalization: k=5.
+✅ Best generalization: k=5
 
 💻 Part B — Programming (Q7–Q9)
 Q7. Decision Trees on Iris Dataset
-Trained with max_depth = 1, 2, 3.
+Trained with max_depth = 1, 2, 3
 
 Observations:
 
@@ -124,7 +129,7 @@ Depth=2/3 → better accuracy, good fit.
 Too deep → overfitting risk.
 
 Q8. kNN with (sepal length, sepal width)
-Trained with k=1, 3, 5, 10.
+Trained with k=1, 3, 5, 10
 
 Observations:
 
@@ -152,13 +157,8 @@ Part A: Step-by-step derivations from provided data.
 
 Part B: Reproducible Python code with fixed random states.
 
-✍️ Author: Ashmitha Kumbham
+✍️ Author
+Ashmitha Kumbham
 📚 Master’s in Data Science and AI
 University of Central Missouri
-
-yaml
-Copy code
-
----
-
 
